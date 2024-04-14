@@ -1,8 +1,8 @@
-const botaodeAbrir = document.querySelector(".header-mobile > button")
-const botaoFechar = document.querySelector(".haeder-mobile nav button")
+const botaodeAbrir = document.querySelector("header > button")
+const botaoFechar = document.querySelector("haeder nav button")
 
 const body =  document.querySelector("body")
-const nav = document.querySelector(".header-mobile nav")
+const nav = document.querySelector("haeder .mobile")
 
 botaoAbrir.addEventListener('click', abrirMenu)
 botaoFechar.addEventListener('click', fecharMenu)
