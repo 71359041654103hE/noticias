@@ -16,7 +16,27 @@
 
 body {
     padding: 1.75rem 1rem;
+    background-color: var(--almost-white) ;
 }
 
+.header-mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    
+}
 
+.header-mobile button{
+    border: none;
+    background: none;
+}
 
+.primeira-secao{
+    margin-bottom: 4rem;
+
+}
+
+.primeira-secao img{
+    width: 100%;
+}
